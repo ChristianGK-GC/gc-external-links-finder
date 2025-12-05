@@ -1,1 +1,64 @@
-# gc-geochecker-finder
+# GC Geochecker Finder
+
+Version **1.0**
+
+A userscript that automatically finds and displays geochecker links on geocaching.com cache pages.
+
+---
+
+## Overview
+
+GC Geochecker Finder is a userscript that automatically detects and displays geochecker links from various domains on geocaching.com cache pages. It creates a convenient widget that shows all found geochecker links with their associated images, making it easier to verify mystery cache solutions.
+
+## Supported Domains
+
+- **certitudes.org** - image link
+- **geocheck.org** & **geotjek.dk** - image link
+- **gc-apps.com** - image link
+- **geochecker.com** - Text link
+
+## Installation
+
+### Prerequisites
+
+Install a userscript manager in your browser:
+
+- [Tampermonkey](https://www.tampermonkey.net/) (Chrome, Firefox, Safari, Edge, Opera)
+- [Greasemonkey](https://www.greasespot.net/) (Firefox)
+- [Violentmonkey](https://violentmonkey.github.io/) (Chrome, Firefox, Edge, Opera)
+
+### Install the Script
+
+1. Install one of the userscript managers above
+2. Click on the following link: [Install GC Geochecker Finder](https://github.com/ChristianGK-GC/gc-geochecker-finder/raw/main/gc_geochecker_finder.user.js)
+3. Your userscript manager will prompt you to install the script
+4. Click "Install" to confirm
+
+## Usage
+
+1. Navigate to any geocaching.com cache page
+2. The script automatically scans the page for geochecker links
+3. If geochecker links are found, a widget appears above the cache details
+4. Any geochecker link is opened in a new tab
+
+## Contributing
+
+Contributions are welcome! Please feel free to:
+
+- Report bugs via [GitHub Issues](https://github.com/ChristianGK-GC/gc-geochecker-finder/issues)
+- Suggest new features or supported domains
+
+## License
+
+This project is licensed under the **GNU General Public License v2.0**.
+
+## Author
+
+Created by [ChristianGK](https://github.com/ChristianGK-GC)
+
+## Support
+
+If you encounter any issues or have questions:
+
+- Open an issue on [GitHub](https://github.com/ChristianGK-GC/gc-geochecker-finder/issues)
+- Check existing issues for similar problems
