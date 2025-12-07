@@ -129,8 +129,10 @@
         if (hasHqChecker) {
             widgetParts.push('<div style="margin-bottom: 15px;">');
             widgetParts.push(
-                `<a href="#ctl00_ContentBody_uxCacheChecker" style="display: block; margin: 5px 0; padding: 10px; background: #00874D; color: white; border-radius: 3px; text-align: center; text-decoration: none;">`,
-                'Geocaching.com checker',
+                '<a href="#ctl00_ContentBody_uxCacheChecker" style="display: block; margin: 5px 0; padding: 10px; border-radius: 3px; text-align: center; text-decoration: none;">',
+                '  <svg viewBox="0 0 196 29" class="icon-logo" role="img" aria-labelledby="GeocachingLogo" width="100%" style="fill: #02874d;">',
+                '    <use xlink:href="https://www.geocaching.com/images/branding/logo-geocaching.svg#gcLogo"></use>',
+                '  </svg>',
                 '</a>'
             );
             widgetParts.push('</div>');
