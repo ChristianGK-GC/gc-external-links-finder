@@ -54,7 +54,7 @@ Install a userscript manager in your browser:
 - [geocaching.com & geocheck.org](https://coord.info/GC8HWZR)
 - [geocheck.xyz](https://coord.info/GC7QJ1E)
 - [geocheck.app](https://coord.info/GC4ZRT0)
-- [geotjek.dk](??https://coord.info/GC6AX4A)
+- [geotjek.dk](https://coord.info/GC6AX4A)
 - [gccheck.com](https://coord.info/GC4CFAA)
 
 ## Contributing
