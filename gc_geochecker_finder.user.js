@@ -52,6 +52,11 @@
             extractParam: () => null,
             getImageUrl: () => `https://www.geochecker.com/images/geochecker_title.png`,
             passCoords: (coords) => { return { 'lastcoords': coords } }
+        },
+        'gccheck.com': {
+            extractParam: (url) => url.match(/([A-Z0-9]+)$/i)?.[1],
+            getImageUrl: () => null
+            //getImageUrl: (param) => param ? `https://gccheck.com/counterimg/${param}.png` : null // broken at provider
         }
     };
 
@@ -164,7 +169,7 @@
                     if (imageUrl) {
                         widgetParts.push(
                             `<a href="${link}" target="_blank" style="display: block; margin: 5px auto; text-align: center;">`,
-                            `<img src="${imageUrl}" style="max-width: 200px; border: 0;">`,
+                            `<img src="${imageUrl}" title="${link}" style="max-width: 200px; border: 0;">`,
                             '</a>'
                         );
                     } else {
