@@ -10,12 +10,16 @@ GC Geochecker Finder is a userscript that automatically detects and displays geo
 
 ## Supported Domains
 
-- **certitudes.org** - image link
-- **geocheck.org** & **geotjek.dk** & **geocheck.xyz** - image link
-- **gc-apps.com** - image link
-- **geochecker.com** - image link
-- **gccheck.com** - text link
-- **geocaching.com** - default checker
+| Domains        |                                | Pass Corrected Coordinates           |
+| :--------------| :------------------------------| :----------------------------------- |
+| certitudes.org | image link                     | no  |
+| geocheck.org   | image link                     | yes |
+| geocheck.xyz   | image link                     | yes |
+| geotjek.dk     | image link                     | yes |
+| gc-apps.com    | image link                     | no  |
+| geochecker.com | image link                     | yes |
+| gccheck.com    | text link                      | no  |
+| geocaching.com | default checker provided by HQ | yes |
 
 ## Installation
 
@@ -48,6 +52,8 @@ Install a userscript manager in your browser:
 - [gc-apps.com](https://coord.info/GCBDJR4)
 - [geochecker.com](https://coord.info/GC2PM5J)
 - [geocaching.com & geocheck.org](https://coord.info/GC8HWZR)
+- [geocheck.xyz](???) (missing)
+- [geotjek.dk](???) (missing)
 - [gccheck.com](https://coord.info/GC4CFAA)
 
 ## Contributing
