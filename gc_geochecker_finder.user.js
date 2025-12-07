@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GC Geochecker Finder
 // @namespace    https://github.com/ChristianGK-GC/gc-geochecker-finder
-// @version      1.1.0
+// @version      1.1.1
 // @description  Finds and displays geochecker links from various domains on geocaching.com cache pages
 // @copyright    2025, ChristianGK (https://github.com/ChristianGK-GC)
 // @author       ChristianGK
