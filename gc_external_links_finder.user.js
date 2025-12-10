@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GC External Links Finder
 // @namespace    https://github.com/ChristianGK-GC/gc-external-links-finder
-// @version      2.0.0-alpha
+// @version      2.0.0-alpha-1
 // @description  Finds and displays external service links (geocheckers, puzzles, planning tools) on geocaching.com cache pages
 // @copyright    2025, ChristianGK (https://github.com/ChristianGK-GC)
 // @author       ChristianGK
@@ -92,6 +92,11 @@
                     extractParam: (url) => url.match(/xctrails\.org/i)?.[0],
                     getImageUrl: () => null,
                     displayName: 'XCTrails.org'
+                },
+                'wherigo.com': {
+                    extractParam: () => null,
+                    getImageUrl: () => null,
+                    displayName: 'Wherigo.com'
                 }
             }
         },
