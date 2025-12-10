@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GC External Links Finder
 // @namespace    https://github.com/ChristianGK-GC/gc-external-links-finder
-// @version      2.0.0-alpha-2
+// @version      2.0.0-alpha-3
 // @description  Finds and displays external service links (geocheckers, puzzles, planning tools) on geocaching.com cache pages
 // @copyright    2025, ChristianGK (https://github.com/ChristianGK-GC)
 // @author       ChristianGK
@@ -23,6 +23,7 @@
     const SCRIPT_NAME = 'GC External Links Finder';
     const INIT_DELAY_MS = 1000;
     const MAX_IMAGE_WIDTH_PX = 200;
+    const MAX_IMAGE_HEIGHT_PX = 120;
 
     // Service categories configuration
     const SERVICE_CATEGORIES = {
@@ -251,7 +252,7 @@
                             if (imageUrl) {
                                 widgetParts.push(
                                     `<a href="${link}" target="_blank" style="display: block; margin: 5px auto; text-align: center;">`,
-                                    `<img src="${imageUrl}" title="${link}" style="max-width: ${MAX_IMAGE_WIDTH_PX}px; border: 0;" `,
+                                    `<img src="${imageUrl}" title="${link}" style="max-width: ${MAX_IMAGE_WIDTH_PX}px; max-height: ${MAX_IMAGE_HEIGHT_PX}px; border: 0;" `,
                                     `alt="${displayName}" `,
                                     `onerror="this.onerror=null; this.parentElement.innerHTML='<span style=\\'display:block;padding:5px;background:#f0f0f0;border-radius:3px;text-align:center;\\'>${displayName}</span>';">`,
                                     '</a>'
