@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GC External Links Finder
 // @namespace    https://github.com/ChristianGK-GC/gc-external-links-finder
-// @version      2.0.0-alpha-1
+// @version      2.0.0-alpha-2
 // @description  Finds and displays external service links (geocheckers, puzzles, planning tools) on geocaching.com cache pages
 // @copyright    2025, ChristianGK (https://github.com/ChristianGK-GC)
 // @author       ChristianGK
