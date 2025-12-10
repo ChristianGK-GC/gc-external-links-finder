@@ -95,7 +95,7 @@
                 },
                 'wherigo.com': {
                     extractParam: () => null,
-                    getImageUrl: () => null,
+                    getImageUrl: () => 'https://s3.amazonaws.com/gs-geo-images/712dc5a3-1707-44da-9410-25050b77cc77.jpg',
                     displayName: 'Wherigo.com'
                 }
             }
