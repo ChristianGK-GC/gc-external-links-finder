@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GC External Links Finder
 // @namespace    https://github.com/ChristianGK-GC/gc-external-links-finder
-// @version      2.0.0-alpha-3
+// @version      2.0.0-alpha-4
 // @description  Finds and displays external service links (geocheckers, puzzles, planning tools) on geocaching.com cache pages
 // @copyright    2025, ChristianGK (https://github.com/ChristianGK-GC)
 // @author       ChristianGK
@@ -15,7 +15,7 @@
 // @grant        none
 // ==/UserScript==
 
-/* global userDefinedCoords */
+
 
 (function () {
     'use strict';
@@ -29,7 +29,7 @@
     const SERVICE_CATEGORIES = {
         geochecker: {
             name: 'Geochecker',
-            icon: '✓',
+            icon: '✅',
             services: {
                 'certitudes.org': {
                     extractParam: (url) => url.match(/wp=([A-Z0-9]+)/i)?.[1],
